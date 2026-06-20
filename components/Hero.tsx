@@ -8,8 +8,8 @@ export default function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   // Spring presets
-  const smooth = { type: 'spring', damping: 30, stiffness: 200 };
-  const gentle = { type: 'spring', damping: 20, stiffness: 120 };
+  const smooth = { type: 'spring', damping: 30, stiffness: 200 } as const;
+  const gentle = { type: 'spring', damping: 20, stiffness: 120 } as const;
 
   useEffect(() => {
     const canvas = canvasRef.current;
