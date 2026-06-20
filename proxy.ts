@@ -10,11 +10,12 @@ export function proxy(request: NextRequest) {
   response.headers.set('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
   response.headers.set('Strict-Transport-Security', 'max-age=63072000; includeSubDomains; preload');
   response.headers.set('X-DNS-Prefetch-Control', 'on');
+  const isDev = process.env.NODE_ENV === 'development';
   response.headers.set(
     'Content-Security-Policy',
     [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.vercel.com",
+      `script-src 'self' 'unsafe-inline' ${isDev ? "'unsafe-eval'" : ""} https://cdn.jsdelivr.net https://www.vercel.com`,
       "style-src 'self' 'unsafe-inline' https://api.fontshare.com https://fonts.googleapis.com",
       "font-src 'self' https://api.fontshare.com https://fonts.gstatic.com",
       "img-src 'self' data: https:",

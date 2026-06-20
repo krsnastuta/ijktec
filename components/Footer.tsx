@@ -31,16 +31,16 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-xl border border-border/80 bg-surface-2 p-[2.5px] flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" className="w-full h-full text-text">
-                  <rect x="5" y="5" width="90" height="90" rx="20" fill="var(--color-surface-offset)" stroke="var(--color-border)" stroke-width="1.5"/>
-                  <text x="68" y="24" font-family="sans-serif" font-size="5.5" font-weight="900" fill="var(--color-accent)" letter-spacing="0.1">ESTD 2026</text>
+                  <rect x="5" y="5" width="90" height="90" rx="20" fill="var(--color-surface-offset)" stroke="var(--color-border)" strokeWidth="1.5"/>
+                  <text x="68" y="24" fontFamily="sans-serif" fontSize="5.5" fontWeight="900" fill="var(--color-accent)" letterSpacing="0.1">ESTD 2026</text>
                   <g transform="translate(18, 25)">
-                    <path d="M12 25 C12 20, 14 18, 16 18 C18 18, 19 20, 19 25 L19 40 C19 42, 17 44, 15 44" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    <path d="M12 25 C12 20, 14 18, 16 18 C18 18, 19 20, 19 25 L19 40 C19 42, 17 44, 15 44" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                     <circle cx="16" cy="10" r="3.5" fill="var(--color-accent)" />
-                    <path d="M28 18 L28 48 C28 56, 22 60, 16 60 C12 60, 10 58, 10 55" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    <path d="M28 18 L28 48 C28 56, 22 60, 16 60 C12 60, 10 58, 10 55" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                     <circle cx="28" cy="10" r="3.5" fill="var(--color-accent)" />
-                    <path d="M42 12 L42 44" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" fill="none" />
-                    <path d="M54 18 L43 30 L54 44" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
-                    <path d="M43 30 L49 30" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" fill="none" />
+                    <path d="M42 12 L42 44" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" fill="none" />
+                    <path d="M54 18 L43 30 L54 44" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                    <path d="M43 30 L49 30" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" fill="none" />
                   </g>
                 </svg>
               </div>

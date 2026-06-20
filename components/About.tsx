@@ -67,13 +67,13 @@ export default function About() {
             <div className="absolute top-0 right-0 w-80 h-80 pointer-events-none opacity-[0.03] dark:opacity-[0.02] transform translate-x-16 -translate-y-16">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" className="w-full h-full text-text">
                 <g transform="translate(18, 25)">
-                  <path d="M12 25 C12 20, 14 18, 16 18 C18 18, 19 20, 19 25 L19 40 C19 42, 17 44, 15 44" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                  <path d="M12 25 C12 20, 14 18, 16 18 C18 18, 19 20, 19 25 L19 40 C19 42, 17 44, 15 44" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                   <circle cx="16" cy="10" r="3.5" fill="currentColor" />
-                  <path d="M28 18 L28 48 C28 56, 22 60, 16 60 C12 60, 10 58, 10 55" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                  <path d="M28 18 L28 48 C28 56, 22 60, 16 60 C12 60, 10 58, 10 55" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                   <circle cx="28" cy="10" r="3.5" fill="currentColor" />
-                  <path d="M42 12 L42 44" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" fill="none" />
-                  <path d="M54 18 L43 30 L54 44" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
-                  <path d="M43 30 L49 30" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" fill="none" />
+                  <path d="M42 12 L42 44" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" fill="none" />
+                  <path d="M54 18 L43 30 L54 44" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                  <path d="M43 30 L49 30" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" fill="none" />
                 </g>
               </svg>
             </div>
