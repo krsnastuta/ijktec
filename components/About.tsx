@@ -63,20 +63,12 @@ export default function About() {
 
           {/* Right: Large monogram graphic + 3 pillars */}
           <div className="relative flex flex-col gap-10 bg-surface/50 border border-border/30 rounded-3xl p-8 md:p-10 overflow-hidden min-h-[450px] justify-between">
-            {/* Faded Large SVG Monogram */}
-            <div className="absolute top-0 right-0 w-80 h-80 pointer-events-none opacity-[0.03] dark:opacity-[0.02] transform translate-x-16 -translate-y-16">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" className="w-full h-full text-text">
-                <g transform="translate(18, 25)">
-                  <path d="M12 25 C12 20, 14 18, 16 18 C18 18, 19 20, 19 25 L19 40 C19 42, 17 44, 15 44" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-                  <circle cx="16" cy="10" r="3.5" fill="currentColor" />
-                  <path d="M28 18 L28 48 C28 56, 22 60, 16 60 C12 60, 10 58, 10 55" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-                  <circle cx="28" cy="10" r="3.5" fill="currentColor" />
-                  <path d="M42 12 L42 44" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" fill="none" />
-                  <path d="M54 18 L43 30 L54 44" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-                  <path d="M43 30 L49 30" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" fill="none" />
-                </g>
-              </svg>
-            </div>
+            {/* Faded Large Monogram */}
+            <img
+              src="/logo.svg"
+              alt=""
+              className="absolute top-0 right-0 w-80 h-80 pointer-events-none opacity-[0.03] dark:opacity-[0.015] transform translate-x-16 -translate-y-16 object-contain select-none"
+            />
 
             <div>
               <span className="text-xs font-display font-semibold tracking-widest text-accent uppercase mb-6 block">
